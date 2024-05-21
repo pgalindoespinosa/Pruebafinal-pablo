@@ -24,13 +24,14 @@ En nuestra maquina local, descargaremos GitHub para posteriormente utilizarlo en
 sudo apt update
 sudo apt install git
 ```
+![Descargando git en el terminal](/pruebafinal/cap1.png)
 
 Una vez descargado, necesitaremos comprobar que esta listo, con el comando `git --version`.
 
 Visto que tenemos una version de GitHub, es decir, que lo hemos descargado, empezaremos con el guardado del repositorio.
 
 ## Configuración global de GitHub (Local)
-
+Vamos a configurar 
 ```
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu.email@example.com"
