@@ -76,11 +76,22 @@ git remote add origin https://github.com/nuestroperfil/nombrerepo.git
 git push origin main
 ```
 Como podemos visualizar en la imagen, la propia web nos proporciona los pasos a seguir. 
-![Enlazando el repositorio local con la web](/pruebafinal/cap7.png)
+![Pasos a seguir para enlazar](/pruebafinal/cap7.png)
 
 `Git remote` enlaza nuestra repo con la web, y `git push` lanza nuestro trabajo y lo actualiza.
 
+#### Cuando realizemos el `git push` nos pedirá credenciales. Para esto necesitaremos un token creado en GitHub. 
+![Creando Token](/pruebafinal/cap8.png)
+#### Cuando lo creemos, nos dará un enlace que será nuestra password ![password del token](/pruebafinal/cap9.png) 
+#### para conectar y hacer el push. Realizado esto una vez, podremos hacer git push sin credenciales.
+
+![Git push final](/pruebafinal/cap10.png)
+
 Después de realizar esto, ya tendriamos todo configurado. Solamente tendriamos que realizar `git add .` y `git commit -m ''` cada vez que actualizemos y añadamos nueva documentación en nuestra repo y `git push`. 
+
+## Visualización del repositorio en la web de GitHub
+
+![Visualización de nuestro repositorio](/pruebafinal/cap11.png)
 
 ### Esta es la configuración de GitHub en nuestras maquinas locales para guardar nuestros proyectos más preciados.
 
